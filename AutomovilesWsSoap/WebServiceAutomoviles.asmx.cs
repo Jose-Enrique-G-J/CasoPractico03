@@ -33,8 +33,8 @@ namespace AutomovilesWsSoap
 
 
 
-        [WebMethod(Description = "Insertar un Automovil")]
-        public string Insertar_Cliente(string imagen, string marca, string modelo, int year, int precio)
+        [WebMethod(Description = "Insertar Automovil")]
+        public string Insertar_Automovil(string imagen, string marca, string modelo, int year, int precio)
         {
             using (var conexion = new ModeloAutomoviles())
             {
